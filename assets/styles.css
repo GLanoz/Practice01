@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(320deg, #881d1d, #430792);
+    font: small-caps 100%/1.5 sans-serif;
+    font-display: swap;
+    height: 100vh;
+    display: flex;
+}
+
+.wrapper{
+    
+    color: beige;
+    margin: 0vh;
+    padding: 0vh;
+}
+
+.title{
+    margin-left: 20vh;
+}
+
+.phoneNumber{
+    margin-left: 35vh;
+    margin-top: -3vh;
+    margin-bottom: 4vh;
+}
+
+
+.item input{
+        width: 50%;
+        border-radius: 9vh;
+    }
+    
+    .location{
+     margin-left: 49vh;
+     margin-top: -35vh;
+    }
+
+    .address{
+        margin: 3vh;
+    }
+
+    .textbox{
+        margin-left: 50vh;
+
+    }
+    
+    .footer{
+        margin-top: 10vh;
+    }
