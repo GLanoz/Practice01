@@ -1,48 +1,57 @@
 body{
     background: linear-gradient(320deg, #881d1d, #430792);
     font: small-caps 100%/1.5 sans-serif;
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    font-size: 3vh;
     font-display: swap;
-    height: 100vh;
     display: flex;
+    box-sizing: border-box; 
+  
 }
 
 .wrapper{
     
-    color: beige;
-    margin: 0vh;
-    padding: 0vh;
+    color: rgb(240, 240, 161);
+    margin: 4ch;
+    padding: 1ch;
 }
 
 .title{
-    margin-left: 20vh;
+ 
+    padding-left: 20vh;
 }
 
 .phoneNumber{
-    margin-left: 35vh;
-    margin-top: -3vh;
-    margin-bottom: 4vh;
+    align-self: center;
+    padding-left: 39vh;
 }
 
 
-.item input{
-        width: 50%;
-        border-radius: 9vh;
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7ch;
+    margin-left: -1ch;
+}
+
+.item {
+        width: 30ch;
+        min-height: 100ch;
+        max-height: auto;
+        float: left;
     }
     
     .location{
-     margin-left: 49vh;
-     margin-top: -35vh;
-    }
-
-    .address{
-        margin: 3vh;
+     margin-left: 10ch;
+     margin-top: 1ch ;
     }
 
     .textbox{
-        margin-left: 50vh;
-
+        margin-left: 1ch;
     }
     
     .footer{
-        margin-top: 10vh;
+        margin: -5vh;
     }
